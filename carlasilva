@@ -1,0 +1,41 @@
+programa {
+ inclua biblioteca util --> u
+ inteiro segundo=0,minuto=0; hora=0
+  funcao inicio() {
+
+    escreva("Relógio: \n")
+    conta_segundos()
+    conta_minutos()
+    conta_uni_hora()
+    conta_hora()
+    
+  }
+funcao vazio conta_segundos ()
+{para(inteiro segundos=0; segundos<60; segundos++)
+
+{ segundo=segundo+1 u.aguarde(1000)
+
+}
+
+conta_minutos()
+funcao vazio conta_minutos()
+{ minuto=minuto+1
+se(minuto==59)
+{conta_segundos()
+minuto=0
+conta_hora
+}
+
+}
+funcao vazio conta_hora()
+{conta_uni_hora=conta_uni_hora
+
+}
+}
+
+
+
+
+
+
+}
